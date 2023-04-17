@@ -1,0 +1,45 @@
+git --version
+
+git config --global user.name "Akshay Shukla"
+
+git config --global user.email "arshukla16@gmail.com"
+
+git config --global user.name     //for checking purpose
+git config --global user.email    //for checking purpose
+
+git config --global --edit     //for edit name and email
+
+cd desktop   //move to any area
+
+mkdir TestGit    // Make TestGit folder inside desktop
+
+cd TestGit    // move to TestGit
+
+git init    // initialze the repository
+
+git status //
+
+git add hello.html
+
+git commit -m "initial commit"
+
+git log    // to check hum previously kitne commit kar chuke hai
+
+git add .   //to add all file
+
+git checkout hashcode dalo   // previous commit ke paas jane ke liye
+
+git branch branchName // to make branch
+
+git branch // to check all branch
+
+git checkout branchName // move to other branch
+
+git checkout -b branchName  // to create new branch and move to that new branch jo abhi banaya
+
+
+-------------------for github--------
+
+git remote -v   //origin and fetch batayega   
+// run karo before adding the  git remote add origin https://github.com/AkshayShukla16/TestGit.git  (from github after making new repository)
+
